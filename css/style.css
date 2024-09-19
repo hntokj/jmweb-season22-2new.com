@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+.jmweb-head{  /*topを中央揃え*/
+    text-align: center;
+}
+.jmweb-head img{ /*top画像サイズ*/
+    width: 90%;
+}
+
+
+.sns-head ul{/*SNS バー*/
+    width:90%;
+    display:flex;
+    background-image: url(../images/orinnpasu-topへ.jpg);
+    background-size: contain;
+    justify-content: center;
+    margin:10px auto;
+    padding: 10px 0px;
+}
+.sns-head ul li a:hover{
+    text-decoration: underline double;
+    }
+.sns-head ul li{
+    padding: 0px 20px;
+}
+.sns-head ul li a{
+    font-size: 25px;
+    font-weight:bold;
+}
+
+
+body{ /*背景*/
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+}
+main{
+    background-color: aliceblue;
+}
+
+
+.main-title{
+    display: block;
+    width:95%;
+}
+.main-title h2{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size:35px;
+    font-weight: 800;
+}
+
+
+time{
+    background-color: #91c777;
+    border-radius:20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 13px 25px 12px 28px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+aside nav{ /*aside　箱*/
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.16);
+    padding:24px 0px ;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+aside nav h2{ /*category*/
+    margin-bottom: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #7c5d48;
+}
+aside nav ul{ /*category内　文字*/
+    font-size: 20px;
+    font-weight: 600;
+}
+aside nav ul li a:hover{
+    text-decoration: underline double;
+    }
+.categoryNav ul li{
+    list-style-type: square;
+    color:#7c5d48;
+    margin: 0 0 16px 20px;
+}
+.categoryNav ul li a{
+    color: #333333;
+}
+.resentNav ul li{
+    border-bottom: 1px solid #7c5d48;
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+}
+.resentNav ul{
+    height: 240px;
+    overflow: hidden scroll;
+}
+
+
+
+
+article{
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+    padding-top: 10px;
+}
+
+
+section1 .legendnav{
+    border-radius: 16px;
+    background-color: rgba(127, 255, 212, 1.0);
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px 0px;
+}
+section1 h1{
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom:4px double black;
+    background-image: url(../images/h2_icon.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding:20px 10px 10px 48px;
+}
+section1 h4{
+    font-size:25px;
+    font-weight:bold;
+    border-bottom:3px dashed black;
+    padding: 10px 0px;
+}
+section1  p img{/*レジェンド写真サイズ設定*/
+    width: 80%;
+    margin: 10px 0px;
+}
+section1  p{/*レジェンド写真サイズ　センター*/
+    text-align: center;
+}
+section1 ul{
+    width: 80%;
+    background-color: beige;
+    margin: 10px auto;
+    border : 3px solid blue;
+}
+section1 ul li{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+
+
+
+
+section2 .weaponnav{
+    border-radius: 16px;
+    background-color: rgb(255, 190, 121);
+    width: 90%;
+    margin:10px auto;
+    padding: 10px 0px;
+}
+section2 h1{
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom:4px double black;
+    background-image: url(../images/h2_icon.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding:20px 10px 10px 48px;
+}
+section2 h4{
+    font-size:25px;
+    font-weight: bold;
+    border-bottom:3px dashed black;
+    padding: 10px 0px;
+}
+section2 ul{
+    width: 80%;
+    background-color: beige;
+    margin: 10px auto;
+    border : 3px solid blue;
+}
+section2 ul li{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+section2 p img{/*武器写真サイズ設定*/
+    width: 80%;
+    margin: 10px 0px;
+}
+section2 p{/*武器写真サイズ　センター*/
+    text-align: center;
+}
+red{
+    color:red;
+}
+
+
+
+section3 .itemnav{
+    border-radius: 16px;
+    background-color:rgb(219, 255, 177);
+    width: 90%;
+    margin:10px auto;
+    padding: 10px 0px;
+}
+section3 h1{
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom:4px double black;
+    background-image: url(../images/h2_icon.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding:20px 10px 10px 48px;
+}
+section3 h4{
+    font-size:25px;
+    font-weight: bold;
+    border-bottom:3px dashed black;
+    padding: 10px 0px;
+}
+section3 ul{
+    width: 80%;
+    background-color: beige;
+    margin: 10px auto;
+    border : 3px solid blue;
+}
+section3 ul li{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+section3 p img{/*武器写真サイズ設定*/
+    width: 20%;
+    margin: 10px 0px;
+}
+section3 p{/*武器写真サイズ　センター*/
+    text-align: center;
+}
+blue{
+    color:blue;
+}
+purple{
+    color:blueviolet;
+}
+
+
+
+bottom .bottomnav{ 
+    border:6px double black;
+    width:20%;
+    margin:10px auto;
+    text-align: center;
+    background-image:url(../images/orinnpasu-topへ.jpg);
+    background-size: contain;
+}
+bottom .bottomnav a{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+    
+
+
