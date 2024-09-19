@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 
 .jmweb-head{  /*topを中央揃え*/
     text-align: center;
@@ -46,7 +46,7 @@ main{
     padding-top: 30px;
     padding-bottom: 5px;
     font-size:35px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 
@@ -268,12 +268,44 @@ bottom .bottomnav{
 bottom .bottomnav a{
     font-size: 30px;
     font-weight: 700;
+    
 }
 
 body{
     font-family: 'Verdana','Hiragino Sans','Meiryo',sans-serif;
 }
 
+@media screen and (max-width:480px) {
+    .sns-head ul{/*SNS バー*/
+        width:90%;
+        display:flex;
+        background-image: url(../images/orinnpasu-topへ.jpg);
+        background-size: contain;
+        justify-content: center;
+        margin:10px auto;
+        padding: 10px 0px;
+    }
+    .sns-head ul li{
+        padding: 0px 15px;
+    }
+    .sns-head ul li a{
+        font-size:15px;
+        font-weight:bold;
+    }
+    bottom .bottomnav{ 
+        border:6px double black;
+        width:30%;
+        margin:10px auto;
+        text-align: center;
+        background-image:url(../images/orinnpasu-topへ.jpg);
+        background-size: contain;
+       
+    }
+    bottom .bottomnav a{
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
     
-
+}
 
