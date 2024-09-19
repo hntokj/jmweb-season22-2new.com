@@ -268,7 +268,10 @@ bottom .bottomnav{
 bottom .bottomnav a{
     font-size: 30px;
     font-weight: 700;
-    
+}
+
+body{
+    font-family: 'Verdana','Hiragino Sans','Meiryo',sans-serif;
 }
 
     
