@@ -306,6 +306,24 @@ body{
         font-weight: 700;
         
     }
+ section1 ul{
+        width: 100%;
+        background-color: beige;
+        margin: 10px 0px;
+        border : 3px solid blue;
+    }
+    section2 ul{
+        width: 100%;
+        background-color: beige;
+        margin: 10px auto;
+        border : 3px solid blue;
+    }
+    section3 ul{
+        width: 100%;
+        background-color: beige;
+        margin: 10px auto;
+        border : 3px solid blue;
+    }
     
 }
 
